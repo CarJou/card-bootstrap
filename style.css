@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:ital,wght@0,400;1,200&display=swap");
+body {
+  background-color: #d2f6c5;
+}
+nav.navbar.navbar-light {
+  background-color: #c3aed6;
+  font-family: "Paytone One", sans-serif;
+  font-weight: bold;
+}
+
+img.card-img-top {
+  margin: auto;
+  width: 200px;
+  animation: headShake;
+  animation-duration: 2s;
+}
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 35px;
+  margin: 15px;
+}
+div.card-deck {
+  margin-bottom: 15px;
+}
+h5.card-title {
+  font-family: "Paytone One", sans-serif;
+  color: #8675a9;
+  font-weight: bold;
+  animation: headShake;
+  animation-duration: 2s;
+}
+p.card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  animation: headShake;
+  animation-duration: 2s;
+}
+div.card-footer {
+  display: flex;
+}
+.btn-outline-primary {
+  margin: auto;
+  justify-content: center;
+  border-radius: 0.95rem;
+  margin-right: 5px;
+}
+.btn-outline-primary:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-outline-success {
+  margin: auto;
+  justify-content: center;
+  margin-left: 5px;
+  border-radius: 0.95rem;
+}
+.btn-outline-success:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
